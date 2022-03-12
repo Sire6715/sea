@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+*{font-family: 'Fredoka', sans-serif;
+  margin: auto;
+   padding: 0.2em;
+   box-sizing: border-box;}
+  
+
+   .nav-item { display: inline-flexbox;
+    
+   }
+
+  span:hover, a:hover{
+       background-color: antiquewhite;
+       color: aqua;
+       font-weight: 400;
+   }
+
+   .main {display: inline-block;
+            position: inherit;
+            margin-bottom: 50px;
+            font-size: 16px;
+            padding: 20px;
+             color: #000000;
+             font-weight: 800;
+            background-image: url(eagle.JPEG);
+             background-size: cover;
+             height: auto;
+             width: 100%;}
+ 
+.about { text-align: center;
+             margin-top: 20px;
+              margin-bottom: 50px;
+              font-weight: bolder;
+
+            } 
+.sub{   background-image: linear-gradient(-90deg, rgb(114, 19, 133), rgb(53, 29, 73));
+    display: inline-block;
+     color: #ffffff;
+     font-weight: 800;
+     height: auto;
+     width: 100%;}
+        
+.main2 {padding: 20px;
+            margin: 20px;
+ 
+     }
+                
+
+.block { 
+    display: block;
+    width: 60%;
+    border: solid #2b0e2b;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center ;
+    text-decoration: white;
+    margin-left: 40px;
+  }
+
+  .block>h2{font-size: 20px;
+                justify-content: center;
+                display: flexbox;
+                  padding: 2px;
+                   font-weight: 500; 
+                   font-style: normal;
+                     }
+
+    .block:hover{ background-color: #7e349b;}
+
+
+footer{background-color: #2b0e2b;
+            display: flex;
+             font-style: normal;
+              color: #ffffff;
+               font-weight: 300;}
+
+.mt-3>p>a{  
+                color: white !important;}
