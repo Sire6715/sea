@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
 *{font-family: 'Fredoka', sans-serif;
-  margin: auto;
-   padding: 0.2em;
-   box-sizing: border-box;}
-  
+  margin: 0px;
+   }
+
+
 
    .nav-item { display: inline-flexbox;
     
@@ -24,9 +24,11 @@
              font-weight: 800;
             background-image: url(eagle.JPEG);
              background-size: cover;
+             max-height: 100%;
              height: auto;
              width: 100%;}
  
+             
 .about { text-align: center;
              margin-top: 20px;
               margin-bottom: 50px;
